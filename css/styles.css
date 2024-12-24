@@ -489,7 +489,7 @@ ul,ol {margin: 0;padding: 0; list-style: none;}
 	transform: rotate(360deg)
 }
 .actions   {
-	margin-top:50px;
+	margin-top:30px;
 }
 .actions a {
   border: 2px solid #ffb300;
