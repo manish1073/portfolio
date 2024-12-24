@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="about_me">
+			<div class="about_me mt-5">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item">
 						<a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true"><i class="fa fa-user"></i> About Me</a>
@@ -364,15 +364,16 @@
 	</div>
 	<div class="">
 		<ul id="filters" class="clearfix">
-			<li><span class="filter active" data-filter=".web, .logo, .card, .post, .design">All Works</span></li>
-			<li><span class="filter" data-filter=".web">Web Design</span></li>
+			<!-- <li><span class="filter active" data-filter=".react, .web, .logo, .card, .post, .design">All Works</span></li> -->
+			<li><span class="filter active" data-filter=".react">React/Next Js Projects</span></li>
+			<li><span class="filter" data-filter=".web">UI/Web Projects</span></li>
 			<!--<li><span class="filter" data-filter=".logo">Logo Design</span></li>-->
 			<!-- <li><span class="filter" data-filter=".card">Visiting Card</span></li> -->
 			<li><span class="filter" data-filter=".post">Post Design</span></li>
-			<!--<li><span class="filter" data-filter=".design">Design</span></li>-->
+			<!-- <li><span class="filter" data-filter=".design">Design</span></li> -->
 		</ul>
 		<div id="portfoliolist" class="clearfix">
-			<div class="portfolio web" data-cat="web">
+			<div class="portfolio react" data-cat="react">
 				<div class="portfolio-wrapper">
 					<a href="javascript:void(0)" >
 						<img src="images/portfolio-thumb/veranda-race-1.png" alt="Veranda Race" />
@@ -389,7 +390,39 @@
 					</div>
 				</div>
 			</div>
-			<div class="portfolio web" data-cat="web">
+			<div class="portfolio react" data-cat="react">
+				<div class="portfolio-wrapper">
+					<a href="javascript:void(0)" >
+						<img src="images/portfolio-thumb/taiservices.png" alt="Tai Services" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<div class="label-text-cell">
+								<a href="images/portfolio-big/taiservices.png" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+								<a href="http://www.taiservices.com/" target="_blank"><i class="fa fa-globe"></i></a>
+								<h3 class="work-title">Tai Services</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio react" data-cat="react">
+				<div class="portfolio-wrapper">
+					<a href="javascript:void(0)" >
+						<img src="images/portfolio-thumb/aerohyre.png" alt="Aerohyre" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<div class="label-text-cell">
+								<a href="images/portfolio-big/aerohyre.png" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+								<a href="https://www.aerohyre.com/" target="_blank"><i class="fa fa-globe"></i></a>
+								<h3 class="work-title">Aerohyre</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio react" data-cat="react">
 				<div class="portfolio-wrapper">
 					<a href="javascript:void(0)" >
 						<img src="images/portfolio-thumb/getKelly.png" alt="Get Exchange" />
@@ -398,7 +431,8 @@
 						<div class="label-text">
 							<div class="label-text-cell">
 								<a href="images/portfolio-big/getKelly.png" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
-								<a href="https://www.getexchange.app/" target="_blank"><i class="fa fa-globe"></i></a>
+								<!-- <a href="https://www.getexchange.app/" target="_blank"><i class="fa fa-globe"></i></a> -->
+								<a href="https://medium.com/@kellyexchange/" target="_blank"><i class="fa fa-globe"></i></a>
 								<h3 class="work-title">Get Exchange</h3>
 							</div>
 						</div>
@@ -935,7 +969,7 @@ $(function () {
 			  filter: '.filter'
 		  },
 		  load: {
-		  filter: '.web'
+		  filter: '.react'
 		}
 			});
 		}
